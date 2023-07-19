@@ -11,11 +11,10 @@
 
 <div id="containingDiv">
             <div id="subHeader">
-              <div >
-                <img style="padding-left: 5%;"src="https://www.wilco.org/Portals/0/wilco_w_solo.png" alt="GIS Header" /></div><div style="clear:both;">   </div>
-               <div style="background-color:#e9e9e9;height:50px;width:100%;color: #04478a;padding-left: 5%;"><h1>Williamson County, Texas</h1></div>
-                        
-            <div style="clear:both;">   </div>
+<picture>
+  <source srcset="https://apps.wilco.org/branding/wilcoMarkColor.webp">
+</picture>
+   <div style="background-color:#e9e9e9;height:50px;width:100%;color: #04478a;padding-left: 5%;"><h1>Williamson County, Texas</h1></div>
 <div id="mainWrap">
             <div class="containingWrapper1">
                 <div class="1Col_content">

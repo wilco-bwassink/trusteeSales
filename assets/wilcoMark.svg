@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <link xmlns="http://www.w3.org/1999/xhtml" rel="stylesheet" href="../styles/style.css" type="txt/css"/>   -->
+<svg id="wilcoLogoMark" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 435.03">
+  <polygon class="leftArm" points="339.52 279.43 178.86 0 0 0 250.07 435.03 339.52 279.43"/>
+  <polygon class="topRightArm" points="490.21 88.56 541.14 0 720 0 579.62 244.15 490.21 88.56"/>
+  <polygon class="midTopArm" points="359.89 243.98 449.3 88.39 398.5 0 219.64 0 359.89 243.98"/>
+  <polygon class="botRightArm" points="469.84 124.06 380.39 279.6 469.72 435.03 559.17 279.43 469.84 124.06"/>
+</svg>

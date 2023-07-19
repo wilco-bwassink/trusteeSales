@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+    body {font-family:'Open Sans';}
+    a {color:#04478a;}
+	a:hover{color:#ff8200;}
+    img {width:40px}
+	#tsContainer {
+		width:400px;
+		margin: auto;
+		display: flex;
+        flex-direction: column;
+		align-items: stretch;
+		justify-items: stretch;
+		align-content: center;
+	}
+
+	#intro {font-weight: bold;}
+	#tsHeader {color:#FFF;background-color: var(--wc-main);font-weight: bold;text-align: center;border-radius: 5px;height: 45px;padding-top: 15px;}
+	.date { font-size: 1rem;text-align: center;border-bottom: #04478a solid 2px;border-radius: 0 0 0 5px;}
+	.map {text-align: center;border-bottom: #04478a solid 2px;border-radius: 0 0 5px 0;}
+	.shown {display: flex;flex-direction: column;justify-content: center;}
+	.hidden {display: none;}
+	.grey {background-color: #ececec;}
+
+    .month {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 75px;
+    }
+    .month:nth-child(odd){
+        background-color: var(--wc-tan-60);
+    }
+    .month>span>a {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+/****** SVG Style *******/
+.wilco-logo--color {
+width: 60px;
+> .midTopArm {
+    fill: #83b7d0;
+  }
+  .midTopArm, .botRightArm, .topRightArm {
+    fill-rule: evenodd;
+  }
+  .leftArm {
+    fill: #6b953a;
+  }
+  .topRightArm {
+    fill: #125b8a;
+  }
+}
+
+  
+  
+  
