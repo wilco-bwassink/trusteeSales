@@ -17,7 +17,7 @@
 	#tsHeader {color:#FFF;background-color: var(--wc-main);font-weight: bold;text-align: center;border-radius: 5px;height: 45px;padding-top: 15px;}
 	.date { font-size: 1rem;text-align: center;border-bottom: #04478a solid 2px;border-radius: 0 0 0 5px;}
 	.map {text-align: center;border-bottom: #04478a solid 2px;border-radius: 0 0 5px 0;}
-	.shown {display: flex;flex-direction: column;justify-content: center;}
+	.shown {display: flex;flex-direction: column;justify-content: center;align-items: center;}
 	.hidden {display: none;}
 	.grey {background-color: #ececec;}
 
@@ -31,7 +31,8 @@
     .month:nth-child(odd){
         background-color: var(--wc-tan-60);
     }
-    .month>span>a {
+    #tsContainer > div > span.shown > a {
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
